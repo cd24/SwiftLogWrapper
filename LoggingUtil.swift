@@ -24,7 +24,7 @@ import SwiftyBeaver
         - ERROR:   Error logging
         - WARNING: Warning logging
  */
-class LoggingUtil : BaseUtil, Logger {
+class LoggingUtil : Logger {
     
     /**
      Current logger.  The behaviour of modifying at runtime after inital configuration through `setup()` or `configure()` is undefined.
